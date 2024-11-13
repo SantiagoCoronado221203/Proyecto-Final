@@ -12,7 +12,7 @@ class Ship (Sprite):
         self.settings = ai_game.settings
         
         #Cargue la imagen de la nave u obtenga su rect.
-        self.image = pygame.image.load(r"imagenes\nave.png")
+        self.image = pygame.image.load(r"imagenes/nave.png")
         self.rect = self.image.get_rect()
         
         #Comienza cada nueva nave en la parte inferior central de la pantalla
