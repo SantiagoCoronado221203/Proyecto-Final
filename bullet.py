@@ -12,7 +12,7 @@ class Bullet (Sprite):
         self.settings = ai_game.settings
         
         #Cargar una imagen para las balas
-        self.image = pygame.image.load(r"imagenes\bala.png")        
+        self.image = pygame.image.load(r"imagenes/bala.png")        
         self.rect = self.image.get_rect()
         
         #Cree una rectangulo de viñeta en (0,0) y luego estabnlezca la posicion correcta
