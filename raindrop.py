@@ -12,7 +12,7 @@ class Raindrop(Sprite):
         self.settings = ai_game.settings
 
         # Cargar la imagen de la gota y establecer su rect
-        self.image = pygame.image.load(r"imagenes\gota.png") 
+        self.image = pygame.image.load(r"imagenes/gota.png") 
         self.rect = self.image.get_rect()
 
         # Inicia cada gota en una posición aleatoria en la parte superior de la pantalla
